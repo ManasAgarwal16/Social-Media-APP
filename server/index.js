@@ -7,6 +7,8 @@ const morgan = require("morgan");
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
 const postRoute = require("./routes/posts");
+const conversationRoute = require("./routes/conversations");
+const messageRoute = require("./routes/messages");
 const path = require("path")
 
 dotenv.config();
@@ -24,6 +26,8 @@ app.use(morgan("common"));
 app.use("/api/auth",authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
+app.use("/api/conversations", conversationRoute);
+app.use("/api/messages", messageRoute);
 
 // app.get("/",(req,res)=>{
 //     res.json("manas")
