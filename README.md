@@ -1,5 +1,5 @@
-# Facebook-clone
-Facebook Clone using MERN Stack.
+# Social-Media
+Social-Media using MERN Stack.
 Also has chat functionality.
 
 ![fb clone1](https://user-images.githubusercontent.com/70032099/121782857-46b40500-cbc9-11eb-9f78-879046a58826.jpg)
